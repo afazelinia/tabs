@@ -242,7 +242,7 @@ export default class PagerPan<T: *> extends React.Component<Props<T>> {
         outputRange: [-maxTranslate, 0],
         extrapolate: 'clamp',
       }),
-      I18nManager.isRTL ? -1 : 1
+      I18nManager.isRTL ? -1 : -1
     );
 
     return (
